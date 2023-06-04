@@ -1,0 +1,19 @@
+{
+  "name": "clase1",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "index.js",
+  "scripts": {
+    "start": "AWS_KEY='2023' node index.js",
+    "start:dev": "AWS_KEY='2023' nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
